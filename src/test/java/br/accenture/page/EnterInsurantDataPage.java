@@ -56,10 +56,7 @@ public class EnterInsurantDataPage extends BasePage{
 		escrever("website", website);
 	}
 	
-	public void open() {
-		subirArquivo();
-	}
-	
+
 	public void nextnextenterproductdata() {
 		clicarBotao("nextenterproductdata");
 	}
